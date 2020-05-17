@@ -5,4 +5,21 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+ body {
+     background-color: #2C2141;
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+.person {
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    max-width: 624px;
 
+}
+
+.person__photo {
+    max-width: 148px;
+    border-radius: 50%;
+}
