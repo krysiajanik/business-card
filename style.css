@@ -29,10 +29,16 @@ body {
     max-width: 624px;
     margin: 16px;
     padding: 32px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .person__desription {
     line-height: 22px;
+}
+
+.person__description--margin {
+    margin-bottom: 22px;
 }
 
 .person__info {
@@ -51,9 +57,10 @@ body {
 .person__photo {
     max-width: 148px;
     border-radius: 50%;
+    margin-right: 32px;
 }
 
 .person__title {
     font-style: italic;
-    margin: 0;
+    margin: 0 0 24px 0;
 }
